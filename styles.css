@@ -1,9 +1,135 @@
 body {
-	font-family: Arial, sans-serif;
-	margin: 40px;
+font-family: Arial, sans-serif;
+background-color: #ffe6f2;
+margin: 0;
+color: #333;
 }
 
-button {
-	padding: 10px 20px;
-	font-size: 16px;
+.banner {
+background-color: #ff66b2;
+color: white;
+text-align: center;
+padding: 25px 0;
+}
+
+.banner h1 {
+margin: 0;
+font-size: 28px;
+font-weight: 700;
+letter-spacing: 1px;
+}
+
+.content {
+padding: 0 220px;
+}
+
+.container {
+max-width: 700px;
+background-color: #fff0fa;
+margin: 40px auto;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(255, 102, 178, 0.2);
+}
+
+form {
+display: flex;
+flex-direction: column;
+gap: 8px;
+margin-bottom: 25px;
+}
+
+form label {
+font-weight: bold;
+color: #cc0066;
+margin-bottom: 5px;
+}
+
+.search-section {
+margin-top: 30px;
+}
+
+.search-bar {
+display: flex;
+gap: 10px;
+}
+
+.search-bar input {
+flex: 1;
+padding: 10px;
+font-size: 15px;
+border: 1px solid #ff80bf;
+border-radius: 4px;
+background-color: #fff;
+color: #333;
+}
+
+.search-bar button {
+background-color: #e63946;
+color: white;
+border: none;
+padding: 10px 18px;
+border-radius: 4px;
+font-weight: bold;
+cursor: pointer;
+transition: background 0.3s;
+}
+
+.search-bar button:hover {
+background-color: #cc2938;
+}
+
+h2 {
+color: #cc0066;
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.divider {
+border: none;
+border-top: 2px solid #ff99cc;
+margin: 10px 0 25px;
+}
+
+.result-section h2 {
+margin-top: 50px;
+margin-bottom: 20px;
+}
+
+#result {
+margin-top: 5px;
+}
+
+#result h3 {
+font-size: 20px;
+text-transform: uppercase;
+margin-bottom: 5px;
+color: #b30059;
+}
+
+#result h4 {
+font-size: 18px;
+color: #ff1a8c;
+margin: 0 0 10px;
+}
+
+#result p {
+font-size: 15px;
+color: #4d0039;
+line-height: 1.5;
+}
+
+#result strong {
+color: #e63946;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+#result ul li {
+transition: color 0.3s;
+}
+
+#result ul li:hover {
+color: #ff1a8c;
+cursor: pointer;
 }

@@ -6,9 +6,27 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h1>Superhero Directory</h1>
+	<header class="banner">
+		<h1>AVENGERS DIRECTORY</h1>
+	</header>
 
-	<button id="searchBtn">Search</button>
+	<main class="content">
+		<section class="search-section">
+			<form id="searchForm" class="search-row">
+				<label for="searchField">Searh by Full Name or Alias</label>
+				<div class="search-bar">
+					<input id="searchField" type="text" placeholder="e.g. Ironman or Tony Stark">
+					<button id="searchBtn" type="button">Search</button>
+				</div>
+			</form>
+		</section>
+
+		<section class="result-section">
+			<h2>RESULT</h2>
+			<hr class="divider">
+			<div id="result"></div>
+		</section>
+	</main>
 
 	<script src="app.js"></script>
 </body>
